@@ -1,3 +1,5 @@
 scipy
-sounddevice 
+wave 
 uuid
+pydub 
+pyaudio
