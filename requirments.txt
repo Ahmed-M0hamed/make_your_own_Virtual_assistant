@@ -3,3 +3,7 @@ wave
 uuid
 pydub 
 pyaudio
+tensorflow 
+tensorflow-io
+keyboard
+pyttsx3
