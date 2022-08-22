@@ -1,6 +1,6 @@
 # make your own siri 
 
-this is a trigger word detection project made with python and tensorflow so the project can 
+this is a trigger word detection project made with python and tensorflow and pytorch so the project can 
 be divided into phases so let me walk you through it 
 
 ## create dataset 
