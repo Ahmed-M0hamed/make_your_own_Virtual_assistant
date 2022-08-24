@@ -11,6 +11,7 @@ and save them as wav files
 ---------------------
 
 positive clips : just record the word you want to use it as trigger word 
+----------------------
 negative clips : record any kind of words or just let the record empty and it better to do both 
 
 ## adding noise 
