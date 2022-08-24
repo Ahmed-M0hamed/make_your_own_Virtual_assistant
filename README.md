@@ -6,7 +6,10 @@ be divided into phases so let me walk you through it
 ## create dataset 
 so we need two categories of audio clips [positive , negative ] or ones  have the trigger word and ones are not 
 so the first python script we wrote is recording 20 clips for each category and gave them unique ids 
-and save them as wav files 
+and save them as wav files  
+
+---------------------
+
 positive clips : just record the word you want to use it as trigger word 
 negative clips : record any kind of words or just let the record empty and it better to do both 
 
@@ -37,9 +40,23 @@ python scripts/recording.py
 python scripts/adding_noise.py
 ``` 
 - the model 
-open the trigger_word_detection.ipynb notebook and run all cells to train the model and save it 
+tensorflow => 
+open the tensorflow_trigger_word.ipynb notebook and run all cells to train the model and save it 
+
+----------------
+
+pytorch => 
+open the pytorch_trigger_word.ipynb notebook and run all cells to train the model and save it 
+
 
 - do inference 
+if your followed tensorflow notebook 
 ```bash 
-python scripts/inference.py 
+python scripts/tensorflow_inference.py 
+``` 
+----------------
+
+if you followed pytorch notebook
+```bash 
+python scripts/pytorch_inference.py 
 ``` 

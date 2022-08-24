@@ -7,3 +7,5 @@ tensorflow
 tensorflow-io
 keyboard
 pyttsx3
+torch 
+torchaudio 

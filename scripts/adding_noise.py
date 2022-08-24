@@ -1,8 +1,7 @@
 from xml.dom.minicompat import NodeList
 import pydub
 from pydub import AudioSegment
-import os 
-import shutil 
+import os  
 import uuid
 
 # paths to the data audio files 
