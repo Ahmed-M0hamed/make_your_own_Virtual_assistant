@@ -21,9 +21,11 @@ so we need to add some kind of background noise to the records to make the model
 kind of data augemention  
 
 ## train the model 
+
 you need to make a data pipeline to process the data after that you create the model and train it 
 
 ## inference 
+
 finially you want to make live prediction 
 
 ## how to run the app 
@@ -43,6 +45,7 @@ python scripts/recording.py
 python scripts/adding_noise.py
 ``` 
 - the model 
+
 tensorflow => 
 open the tensorflow_trigger_word.ipynb notebook and run all cells to train the model and save it 
 
